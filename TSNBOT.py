@@ -1,7 +1,7 @@
 import telebot
 
 bot = telebot.TeleBot('1672695744:AAHRjByoDREPlrc9YeUcXFHuHrjcxjTDpHo') #ключ бота
-bot.polling(none_stop=True)
+
 #работа с клавишами
 keyboard1 = telebot.types.ReplyKeyboardMarkup(True)
 keyboard1.row('Контакты', 'Устав ТСН', 'Схема ТСН')
